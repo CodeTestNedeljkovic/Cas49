@@ -1,0 +1,6 @@
+<div class="todo">
+    <p class="userId">User who created this todo is: {{userId}}</p>
+    <p class="id">Id of this todo is: {{id}}</p>
+    <p class="title">{{title}}</p>
+    <p class="iscompleted" [ngClass]="{'completed': completed}">{{completed ? 'Completed': 'Not completed'}}</p>
+</div>

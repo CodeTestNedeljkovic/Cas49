@@ -1,0 +1,41 @@
+.paginator {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    button {
+        padding: 3px;
+        border-radius: 5px;
+        width: 40px;
+        font-weight: bold;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        font-size: 25px;
+        cursor: pointer;
+
+        &.current {
+            cursor: default;
+            background-color: rgba(0,0,0,0.2);
+            color: white;
+            border: 1px solid white;
+        }
+    }
+}
+.per_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    label {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    input {
+        font-size: 32px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding-left: 5px;
+    }
+}

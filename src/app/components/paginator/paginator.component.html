@@ -1,0 +1,11 @@
+<div class="per_page">
+    <label for="perPage">Per page:</label>
+    <input type="number" name="perPage" id="perPage" />
+</div>
+<div class="paginator">
+    <button
+        *ngFor="let page of [].constructor(numberOfPages); let i = index"
+        [ngClass]="{'current': currentPage == i + 1}"
+        (click)="changePage(i + 1)"
+    >{{i + 1}}</button>
+</div>
