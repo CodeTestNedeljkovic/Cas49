@@ -5,3 +5,9 @@
 ## Primer ruta
 
 ![Primer Ruta](./github_images/Untitled.png)
+
+### Pokretanje aplikacije
+
+```
+    npm start
+```
