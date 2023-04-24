@@ -1,6 +1,7 @@
 <div class="per_page">
     <label for="perPage">Per page:</label>
-    <input type="number" name="perPage" id="perPage" />
+    <input type="number" name="perPage" id="perPage" [(ngModel)]="perPage" />
+    <button (click)="submitPerPage()">Submit</button>
 </div>
 <div class="paginator">
     <button

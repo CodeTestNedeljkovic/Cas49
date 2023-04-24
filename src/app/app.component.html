@@ -1,14 +1,1 @@
-<div class="todo_list">
-  <app-todo *ngFor="let todo of todos"
-    class="todos"
-    [userId]="todo.userId"
-    [id]="todo.id"
-    [title]="todo.title"
-    [completed]="todo.completed"
-  ></app-todo>
-</div>
-<app-paginator
-  [numberOfPages]="numberOfPages"
-  [currentPage]="currentPage"
-  (pageChange)="pageChangeEvent($event)"
-></app-paginator>
+<router-outlet></router-outlet>
